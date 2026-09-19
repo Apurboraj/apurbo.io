@@ -1,292 +1,1393 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Apurbo Rajbongshi | Portfolio</title>
+    <meta charset="UTF-8">
 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <meta name="description"
+        content="Apurbo Rajbongshi - AI/ML Engineer, Software Developer and Data Science enthusiast. Portfolio featuring AI, machine learning, healthcare AI, mobile applications and software projects.">
 
+    <meta name="keywords"
+        content="Apurbo Rajbongshi, AI Engineer, Machine Learning, Data Science, Software Engineer, Flutter Developer, Computer Vision, Deep Learning">
+
+    <meta name="author" content="Apurbo Rajbongshi">
+
+    <meta property="og:title" content="Apurbo Rajbongshi | AI/ML Engineer">
+    <meta property="og:description"
+        content="AI/ML Engineer and Software Developer focused on intelligent systems, data science and practical software development.">
+    <meta property="og:type" content="website">
+
+    <title>Apurbo Rajbongshi | AI/ML Engineer & Software Developer</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<nav>
-<div class="logo">Apurbo Rajbongshi</div>
+    <!-- =========================
+         NAVIGATION
+    ========================== -->
 
-<ul>
-<li><a href="#about">About</a></li>
-<li><a href="#education">Education</a></li>
-<li><a href="#skills">Skills</a></li>
-<li><a href="#projects">Projects</a></li>
-<li><a href="#research">Research</a></li>
-<li><a href="#contact">Contact</a></li>
-</ul>
+    <header class="header" id="header">
 
-<button class="theme-btn" onclick="toggleTheme()">
-🌙 Mode
-</button>
-</nav>
+        <nav class="navbar container">
 
-<section class="hero">
+            <a href="#home" class="logo">
+                <span class="logo-bracket">&lt;</span>AR<span class="logo-bracket">/&gt;</span>
+            </a>
 
-<img src="assets/profile.jpg" alt="Profile">
+            <div class="nav-menu" id="nav-menu">
+
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#research" class="nav-link">Research</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#contact" class="nav-link">Contact</a>
 
-<h1>Apurbo Raj</h1>
+                <a
+                    href="assets/Apurbo_Rajbongshi_CV.pdf"
+                    class="nav-cv"
+                    download
+                >
+                    <i class="fa-solid fa-file-arrow-down"></i>
+                    CV
+                </a>
+
+            </div>
+
+            <div class="nav-actions">
+
+                <button
+                    class="theme-toggle"
+                    id="theme-toggle"
+                    aria-label="Toggle dark and light mode"
+                    title="Toggle theme"
+                >
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+
+                <button
+                    class="menu-toggle"
+                    id="menu-toggle"
+                    aria-label="Open navigation menu"
+                >
+                    <i class="fa-solid fa-bars"></i>
+                </button>
 
-<h2>Computer Science & Engineering Student</h2>
+            </div>
 
-<p>
-AI Research Enthusiast | Machine Learning |
-Data Science | Android Developer | Flutter Developer
-</p>
+        </nav>
 
-<a href="resume.pdf" download class="btn">
-📄 Download Resume
-</a>
+    </header>
 
-</section>
 
-<section id="about">
+    <main>
 
-<h2 class="section-title">About Me</h2>
+        <!-- =========================
+             HERO
+        ========================== -->
 
-<div class="card">
+        <section class="hero section" id="home">
 
-<p>
+            <div class="hero-grid"></div>
 
-I am a Computer Science and Engineering student passionate about
-Artificial Intelligence, Machine Learning, Deep Learning,
-Data Science, Android Development and Research.
+            <div class="hero-content container">
 
-Currently working on AI-based healthcare projects including:
+                <div class="hero-text">
 
-</p>
+                    <div class="availability">
+                        <span class="status-dot"></span>
+                        Open to opportunities
+                    </div>
 
-<br>
+                    <p class="hero-intro">
+                        Hello, I'm
+                    </p>
 
-<ul>
+                    <h1>
+                        Apurbo
+                        <span>Rajbongshi</span>
+                    </h1>
 
-<li>Pneumonia Detection Using Deep Learning</li>
+                    <div class="hero-role">
+                        <span id="typing-text">AI/ML Engineer</span>
+                        <span class="cursor">|</span>
+                    </div>
 
-<li>ASD Detection Using Multimodal AI</li>
+                    <p class="hero-description">
+                        Recently completed B.Sc. in Computer Science & Engineering,
+                        with a strong interest in Artificial Intelligence,
+                        Machine Learning, Data Science and software development.
+                    </p>
+
+                    <div class="hero-buttons">
 
-<li>Medical Image Analysis</li>
+                        <a href="#projects" class="btn btn-primary">
+                            <i class="fa-solid fa-code"></i>
+                            View Projects
+                        </a>
+
+                        <a
+                            href="assets/Apurbo_Rajbongshi_CV.pdf"
+                            class="btn btn-secondary"
+                            download
+                        >
+                            <i class="fa-solid fa-download"></i>
+                            Download CV
+                        </a>
+
+                    </div>
+
+                    <div class="social-links">
+
+                        <a
+                            href="https://github.com/Apurboraj"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label="GitHub"
+                        >
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+
+                        <a
+                            href="https://www.linkedin.com/in/apurborajbongshi-57253933b/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label="LinkedIn"
+                        >
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
 
-<li>Machine Learning Research</li>
+                        <a
+                            href="mailto:apucse1296@gmail.com"
+                            aria-label="Email"
+                        >
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
 
-</ul>
+                    </div>
 
-</div>
+                </div>
 
-</section>
 
-<section id="education">
+                <div class="hero-visual">
 
-<h2 class="section-title">Education</h2>
+                    <div class="profile-glow"></div>
 
-<div class="card">
+                    <div class="profile-card">
 
-<h3>B.Sc. in Computer Science & Engineering</h3>
+                        <div class="profile-card-top">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
 
-<p>Gono Bishwabidyalay</p>
+                        <div class="profile-image-wrapper">
 
-<p> CGPA: _ _ / 4.0</p>
+                            <img
+                                src="assets/profile.jpg"
+                                alt="Apurbo Rajbongshi"
+                                class="profile-image"
+                            >
 
-<p> Graduation: April, 2026</p>
+                        </div>
 
-</div>
+                        <div class="profile-code">
 
-</section>
+                            <div>
+                                <span class="code-purple">const</span>
+                                <span class="code-blue">developer</span>
+                                <span>=</span>
+                                <span class="code-orange">{</span>
+                            </div>
 
-<section id="skills">
+                            <div class="code-indent">
+                                <span class="code-blue">name</span>:
+                                <span class="code-green">'Apurbo Rajbongshi'</span>,
+                            </div>
 
-<h2 class="section-title">Skills</h2>
+                            <div class="code-indent">
+                                <span class="code-blue">focus</span>:
+                                <span class="code-green">'AI & ML'</span>,
+                            </div>
 
-<div class="skills">
+                            <div class="code-indent">
+                                <span class="code-blue">build</span>:
+                                <span class="code-green">'Intelligent Systems'</span>
+                            </div>
 
-<span class="skill">Python</span>
+                            <div>
+                                <span class="code-orange">}</span>;
+                            </div>
 
-<span class="skill">Java</span>
+                        </div>
 
-<span class="skill">Flutter</span>
+                    </div>
+
+                    <div class="floating-card card-ai">
+                        <i class="fa-solid fa-brain"></i>
+                        <span>AI / ML</span>
+                    </div>
+
+                    <div class="floating-card card-data">
+                        <i class="fa-solid fa-chart-line"></i>
+                        <span>Data Science</span>
+                    </div>
+
+                    <div class="floating-card card-code">
+                        <i class="fa-solid fa-code"></i>
+                        <span>Software</span>
+                    </div>
+
+                </div>
 
-<span class="skill">Android Studio</span>
+            </div>
 
-<span class="skill">Firebase</span>
+            <a href="#about" class="scroll-down">
+                <span>Scroll to explore</span>
+                <i class="fa-solid fa-arrow-down"></i>
+            </a>
 
-<span class="skill">Machine Learning</span>
+        </section>
 
-<span class="skill">Deep Learning</span>
 
-<span class="skill">Data Science</span>
+        <!-- =========================
+             ABOUT
+        ========================== -->
 
-<span class="skill">TensorFlow</span>
+        <section class="section about-section" id="about">
 
-<span class="skill">Keras</span>
+            <div class="container">
 
-<span class="skill">Computer Vision</span>
+                <div class="section-heading reveal">
 
-<span class="skill">Git</span>
+                    <p class="eyebrow">ABOUT ME</p>
 
-<span class="skill">GitHub</span>
+                    <h2>
+                        Building technology with
+                        <span>purpose.</span>
+                    </h2>
 
-<span class="skill">SQL</span>
+                    <p class="section-subtitle">
+                        I enjoy turning ideas, data and research problems
+                        into practical software and intelligent systems.
+                    </p>
 
-</div>
+                </div>
 
-</section>
 
-<section id="projects">
+                <div class="about-grid">
 
-<h2 class="section-title">Projects</h2>
+                    <div class="about-text reveal">
 
-<div class="projects">
+                        <p>
+                            I'm <strong>Apurbo Rajbongshi</strong>, a Computer Science
+                            and Engineering graduate interested in Artificial
+                            Intelligence, Machine Learning, Data Science and
+                            software development.
+                        </p>
 
-<div class="project">
-<h3>Pneumonia Detection Using AI</h3>
-<p>
-Deep Learning model that analyzes chest X-ray images
-and predicts Pneumonia.
-</p>
-</div>
+                        <p>
+                            My academic and project experience includes deep learning,
+                            computer vision, multimodal machine learning, healthcare
+                            AI, mobile application development and data-driven
+                            software systems.
+                        </p>
 
-<div class="project">
-<h3>ASD Detection System</h3>
-<p>
-Multimodal Autism Detection using Image, Audio,
-Text and Tabular Data.
-</p>
-</div>
+                        <p>
+                            I particularly enjoy working on projects where machine
+                            learning meets real-world problems. My current research
+                            interests include medical AI, multimodal learning,
+                            computer vision and explainable AI.
+                        </p>
 
-<div class="project">
-<h3>Multi Use Android App</h3>
-<p>
-Calculator, To-Do List, Unit Converter,
-Temperature Converter and Feedback System.
-</p>
-</div>
+                        <div class="about-highlights">
 
-<div class="project">
-<h3>Flutter Task Management App</h3>
-<p>
-Task manager with add, update, delete,
-notifications and local database.
-</p>
-</div>
+                            <div class="highlight">
+                                <i class="fa-solid fa-robot"></i>
+                                <div>
+                                    <strong>AI & ML</strong>
+                                    <span>Intelligent systems</span>
+                                </div>
+                            </div>
 
-<div class="project">
-<h3>BMI Calculator App</h3>
-<p>
-Flutter application with data saving,
-multiple units and modern UI.
-</p>
-</div>
+                            <div class="highlight">
+                                <i class="fa-solid fa-mobile-screen-button"></i>
+                                <div>
+                                    <strong>Development</strong>
+                                    <span>Web & mobile apps</span>
+                                </div>
+                            </div>
 
-<div class="project">
-<h3>E-Commerce Mobile App</h3>
-<p>
-Flutter shopping application with product catalog,
-cart system and Firebase backend.
-</p>
-</div>
+                            <div class="highlight">
+                                <i class="fa-solid fa-microscope"></i>
+                                <div>
+                                    <strong>Research</strong>
+                                    <span>Applied AI research</span>
+                                </div>
+                            </div>
 
-<div class="project">
-<h3>Weather Application</h3>
-<p>
-Weather forecast application using API integration,
-location services and responsive UI.
-</p>
-</div>
+                            <div class="highlight">
+                                <i class="fa-solid fa-database"></i>
+                                <div>
+                                    <strong>Data Science</strong>
+                                    <span>Data-driven solutions</span>
+                                </div>
+                            </div>
 
-</div>
+                        </div>
 
-</section>
+                    </div>
 
-<section id="research">
 
-<h2 class="section-title">Research Interests</h2>
+                    <div class="about-terminal reveal">
 
-<div class="card">
+                        <div class="terminal">
 
-<ul>
+                            <div class="terminal-header">
+                                <div class="terminal-dots">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
 
-<li>Artificial Intelligence</li>
+                                <span>about_me.py</span>
+                            </div>
 
-<li>Machine Learning</li>
+                            <div class="terminal-body">
 
-<li>Deep Learning</li>
+<pre><span class="purple">class</span> <span class="blue">Developer</span>:
 
-<li>Data Science</li>
+    <span class="purple">def</span> <span class="yellow">__init__</span>(self):
 
-<li>Computer Vision</li>
+        self.name = <span class="green">"Apurbo Rajbongshi"</span>
+        self.degree = <span class="green">"B.Sc. CSE"</span>
+        self.focus = [
+            <span class="green">"Artificial Intelligence"</span>,
+            <span class="green">"Machine Learning"</span>,
+            <span class="green">"Data Science"</span>,
+            <span class="green">"Software Development"</span>
+        ]
 
-<li>Medical AI</li>
+        self.goal = <span class="green">"Build useful technology"</span></pre>
 
-<li>Healthcare Analytics</li>
+                            </div>
 
-<li>Multimodal Learning</li>
+                        </div>
 
-</ul>
+                    </div>
 
-</div>
+                </div>
 
-</section>
+            </div>
 
-<section class="github">
+        </section>
 
-<h2 class="section-title">GitHub Statistics</h2>
 
-<img src="https://github-readme-stats.vercel.app/api?username=Apurboraj&show_icons=true&theme=tokyonight">
+        <!-- =========================
+             SKILLS
+        ========================== -->
 
-<br>
+        <section class="section skills-section" id="skills">
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Apurboraj&theme=tokyonight">
+            <div class="container">
 
-<br>
+                <div class="section-heading reveal">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Apurboraj">
+                    <p class="eyebrow">TECHNICAL SKILLS</p>
 
-</section>
+                    <h2>
+                        Tools I use to
+                        <span>build.</span>
+                    </h2>
 
-<section id="contact">
+                    <p class="section-subtitle">
+                        A growing toolkit across AI, data, software and mobile development.
+                    </p>
 
-<h2 class="section-title">Contact Me</h2>
+                </div>
 
-<form class="contact-form">
 
-<input type="text" placeholder="Your Name">
+                <div class="skills-grid">
 
-<input type="email" placeholder="Your Email">
+                    <div class="skill-category reveal">
 
-<textarea rows="5" placeholder="Your Message"></textarea>
+                        <div class="skill-icon">
+                            <i class="fa-solid fa-brain"></i>
+                        </div>
 
-<button type="submit">
-Send Message
-</button>
+                        <h3>AI & Machine Learning</h3>
 
-</form>
+                        <div class="skill-tags">
+                            <span>Machine Learning</span>
+                            <span>Deep Learning</span>
+                            <span>Computer Vision</span>
+                            <span>TensorFlow</span>
+                            <span>Keras</span>
+                            <span>Scikit-learn</span>
+                            <span>Model Evaluation</span>
+                            <span>Grad-CAM</span>
+                        </div>
 
-<br>
+                    </div>
 
-<center>
 
-<p>Email: apucse1296@gmail.com</p>
+                    <div class="skill-category reveal">
 
-<p>GitHub: github.com/Apurboraj</p>
+                        <div class="skill-icon">
+                            <i class="fa-solid fa-chart-column"></i>
+                        </div>
 
-</center>
+                        <h3>Data Science</h3>
 
-</section>
+                        <div class="skill-tags">
+                            <span>Python</span>
+                            <span>Pandas</span>
+                            <span>NumPy</span>
+                            <span>Data Analysis</span>
+                            <span>Data Visualization</span>
+                            <span>Jupyter</span>
+                            <span>Google Colab</span>
+                            <span>SQL</span>
+                        </div>
 
-<footer>
+                    </div>
 
-<p>
-© 2026 Apurbo Raj | AI Research & Software Development
-</p>
 
-</footer>
+                    <div class="skill-category reveal">
+
+                        <div class="skill-icon">
+                            <i class="fa-solid fa-laptop-code"></i>
+                        </div>
+
+                        <h3>Software Development</h3>
+
+                        <div class="skill-tags">
+                            <span>Python</span>
+                            <span>Java</span>
+                            <span>JavaScript</span>
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>Git</span>
+                            <span>GitHub</span>
+                            <span>REST APIs</span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="skill-category reveal">
+
+                        <div class="skill-icon">
+                            <i class="fa-solid fa-mobile-screen"></i>
+                        </div>
+
+                        <h3>Mobile Development</h3>
+
+                        <div class="skill-tags">
+                            <span>Flutter</span>
+                            <span>Dart</span>
+                            <span>Android</span>
+                            <span>Firebase</span>
+                            <span>Firestore</span>
+                            <span>Android Studio</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             PROJECTS
+        ========================== -->
+
+        <section class="section projects-section" id="projects">
+
+            <div class="container">
+
+                <div class="section-heading reveal">
+
+                    <p class="eyebrow">SELECTED WORK</p>
+
+                    <h2>
+                        Projects that turn
+                        <span>ideas into reality.</span>
+                    </h2>
+
+                    <p class="section-subtitle">
+                        A selection of AI, data science, mobile and software projects.
+                    </p>
+
+                </div>
+
+
+                <div class="projects-grid">
+
+
+                    <!-- Project 01 -->
+
+                    <article class="project-card featured reveal">
+
+                        <div class="project-number">01</div>
+
+                        <div class="project-content">
+
+                            <div class="project-top">
+
+                                <span class="project-label">
+                                    AI / HEALTHCARE
+                                </span>
+
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+                            </div>
+
+                            <h3>Hybrid Pneumonia Detection System</h3>
+
+                            <p>
+                                An AI-based healthcare system combining chest X-ray
+                                image analysis with clinical patient information
+                                to support pneumonia classification.
+                            </p>
+
+                            <div class="project-tags">
+                                <span>Python</span>
+                                <span>TensorFlow</span>
+                                <span>VGG16</span>
+                                <span>Machine Learning</span>
+                                <span>Computer Vision</span>
+                            </div>
+
+                            <div class="project-links">
+
+                                <a
+                                    href="https://github.com/Apurboraj"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <i class="fa-brands fa-github"></i>
+                                    GitHub
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Project 02 -->
+
+                    <article class="project-card reveal">
+
+                        <div class="project-number">02</div>
+
+                        <div class="project-content">
+
+                            <div class="project-top">
+
+                                <span class="project-label">
+                                    MULTIMODAL AI
+                                </span>
+
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+                            </div>
+
+                            <h3>Multimodal ASD Detection</h3>
+
+                            <p>
+                                A machine learning research project combining
+                                tabular, image, text and audio information
+                                for Autism Spectrum Disorder analysis.
+                            </p>
+
+                            <div class="project-tags">
+                                <span>Python</span>
+                                <span>ML</span>
+                                <span>Deep Learning</span>
+                                <span>Multimodal AI</span>
+                            </div>
+
+                            <div class="project-links">
+
+                                <a
+                                    href="https://github.com/Apurboraj"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <i class="fa-brands fa-github"></i>
+                                    GitHub
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Project 03 -->
+
+                    <article class="project-card reveal">
+
+                        <div class="project-number">03</div>
+
+                        <div class="project-content">
+
+                            <div class="project-top">
+
+                                <span class="project-label">
+                                    FLUTTER
+                                </span>
+
+                                <i class="fa-solid fa-mobile-screen-button"></i>
+
+                            </div>
+
+                            <h3>Task Management App</h3>
+
+                            <p>
+                                A mobile task management application with
+                                task creation, updates, deletion, notifications
+                                and local data persistence.
+                            </p>
+
+                            <div class="project-tags">
+                                <span>Flutter</span>
+                                <span>Dart</span>
+                                <span>Local DB</span>
+                                <span>UI/UX</span>
+                            </div>
+
+                            <div class="project-links">
+
+                                <a
+                                    href="https://github.com/Apurboraj"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <i class="fa-brands fa-github"></i>
+                                    GitHub
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Project 04 -->
+
+                    <article class="project-card reveal">
+
+                        <div class="project-number">04</div>
+
+                        <div class="project-content">
+
+                            <div class="project-top">
+
+                                <span class="project-label">
+                                    MOBILE APP
+                                </span>
+
+                                <i class="fa-solid fa-cart-shopping"></i>
+
+                            </div>
+
+                            <h3>E-Commerce Application</h3>
+
+                            <p>
+                                A Flutter-based shopping application with
+                                product browsing, cart management and
+                                Firebase-powered backend services.
+                            </p>
+
+                            <div class="project-tags">
+                                <span>Flutter</span>
+                                <span>Dart</span>
+                                <span>Firebase</span>
+                                <span>Firestore</span>
+                            </div>
+
+                            <div class="project-links">
+
+                                <a
+                                    href="https://github.com/Apurboraj"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <i class="fa-brands fa-github"></i>
+                                    GitHub
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Project 05 -->
+
+                    <article class="project-card reveal">
+
+                        <div class="project-number">05</div>
+
+                        <div class="project-content">
+
+                            <div class="project-top">
+
+                                <span class="project-label">
+                                    MOBILE APP
+                                </span>
+
+                                <i class="fa-solid fa-heart-pulse"></i>
+
+                            </div>
+
+                            <h3>BMI Calculator</h3>
+
+                            <p>
+                                A clean Flutter application for calculating
+                                BMI with unit selection, result history
+                                and persistent local data.
+                            </p>
+
+                            <div class="project-tags">
+                                <span>Flutter</span>
+                                <span>Dart</span>
+                                <span>Mobile UI</span>
+                            </div>
+
+                            <div class="project-links">
+
+                                <a
+                                    href="https://github.com/Apurboraj"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <i class="fa-brands fa-github"></i>
+                                    GitHub
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Project 06 -->
+
+                    <article class="project-card reveal">
+
+                        <div class="project-number">06</div>
+
+                        <div class="project-content">
+
+                            <div class="project-top">
+
+                                <span class="project-label">
+                                    API / SOFTWARE
+                                </span>
+
+                                <i class="fa-solid fa-cloud-sun"></i>
+
+                            </div>
+
+                            <h3>Weather Application</h3>
+
+                            <p>
+                                A weather application using API integration
+                                to retrieve weather information and present
+                                it through a responsive interface.
+                            </p>
+
+                            <div class="project-tags">
+                                <span>API</span>
+                                <span>Flutter</span>
+                                <span>Dart</span>
+                                <span>JSON</span>
+                            </div>
+
+                            <div class="project-links">
+
+                                <a
+                                    href="https://github.com/Apurboraj"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <i class="fa-brands fa-github"></i>
+                                    GitHub
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+
+                <div class="center-button reveal">
+
+                    <a
+                        href="https://github.com/Apurboraj?tab=repositories"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="btn btn-secondary"
+                    >
+                        <i class="fa-brands fa-github"></i>
+                        View All Repositories
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             RESEARCH
+        ========================== -->
+
+        <section class="section research-section" id="research">
+
+            <div class="container">
+
+                <div class="section-heading reveal">
+
+                    <p class="eyebrow">RESEARCH INTERESTS</p>
+
+                    <h2>
+                        Curious about what comes
+                        <span>next.</span>
+                    </h2>
+
+                    <p class="section-subtitle">
+                        Areas where I want to explore, experiment and contribute.
+                    </p>
+
+                </div>
+
+
+                <div class="research-grid">
+
+                    <div class="research-item reveal">
+                        <div class="research-icon">
+                            <i class="fa-solid fa-robot"></i>
+                        </div>
+                        <h3>Artificial Intelligence</h3>
+                        <p>
+                            Intelligent systems that can solve practical
+                            and complex problems.
+                        </p>
+                    </div>
+
+                    <div class="research-item reveal">
+                        <div class="research-icon">
+                            <i class="fa-solid fa-image"></i>
+                        </div>
+                        <h3>Computer Vision</h3>
+                        <p>
+                            Deep learning approaches for image understanding
+                            and medical image analysis.
+                        </p>
+                    </div>
+
+                    <div class="research-item reveal">
+                        <div class="research-icon">
+                            <i class="fa-solid fa-layer-group"></i>
+                        </div>
+                        <h3>Multimodal Learning</h3>
+                        <p>
+                            Combining information from multiple data modalities
+                            to improve intelligent systems.
+                        </p>
+                    </div>
+
+                    <div class="research-item reveal">
+                        <div class="research-icon">
+                            <i class="fa-solid fa-heart-pulse"></i>
+                        </div>
+                        <h3>Medical AI</h3>
+                        <p>
+                            Applying machine learning to healthcare,
+                            medical imaging and clinical data.
+                        </p>
+                    </div>
+
+                    <div class="research-item reveal">
+                        <div class="research-icon">
+                            <i class="fa-solid fa-magnifying-glass-chart"></i>
+                        </div>
+                        <h3>Data Science</h3>
+                        <p>
+                            Extracting useful patterns and insights
+                            from real-world data.
+                        </p>
+                    </div>
+
+                    <div class="research-item reveal">
+                        <div class="research-icon">
+                            <i class="fa-solid fa-eye"></i>
+                        </div>
+                        <h3>Explainable AI</h3>
+                        <p>
+                            Making machine learning predictions easier
+                            to understand and interpret.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             EDUCATION
+        ========================== -->
+
+        <section class="section education-section" id="education">
+
+            <div class="container">
+
+                <div class="section-heading reveal">
+
+                    <p class="eyebrow">EDUCATION</p>
+
+                    <h2>
+                        My academic
+                        <span>journey.</span>
+                    </h2>
+
+                </div>
+
+
+                <div class="timeline">
+
+                    <div class="timeline-item reveal">
+
+                        <div class="timeline-dot"></div>
+
+                        <div class="timeline-card">
+
+                            <span class="timeline-date">
+                                2026
+                            </span>
+
+                            <h3>
+                                B.Sc. in Computer Science & Engineering
+                            </h3>
+
+                            <h4>
+                                Gono Bishwabidyalay
+                            </h4>
+
+                            <p>
+                                Focused on computer science fundamentals,
+                                software development, artificial intelligence,
+                                machine learning, data science and project-based
+                                development.
+                            </p>
+
+                            <div class="education-tags">
+                                <span>Computer Science</span>
+                                <span>AI & ML</span>
+                                <span>Software Engineering</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="timeline-item reveal">
+
+                        <div class="timeline-dot"></div>
+
+                        <div class="timeline-card">
+
+                            <span class="timeline-date">
+                                2020
+                            </span>
+
+                            <h3>
+                                Higher Secondary Certificate
+                            </h3>
+
+                            <h4>
+                                Afaz Uddin School and College
+                            </h4>
+
+                            <p>
+                                Science background with a strong foundation
+                                in mathematics, science and analytical thinking.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="timeline-item reveal">
+
+                        <div class="timeline-dot"></div>
+
+                        <div class="timeline-card">
+
+                            <span class="timeline-date">
+                                2018
+                            </span>
+
+                            <h3>
+                                Secondary School Certificate
+                            </h3>
+
+                            <h4>
+                                Afaz Uddin High School
+                            </h4>
+
+                            <p>
+                                Science background with an early interest
+                                in technology and problem solving.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             GITHUB
+        ========================== -->
+
+        <section class="section github-section">
+
+            <div class="container">
+
+                <div class="section-heading reveal">
+
+                    <p class="eyebrow">OPEN SOURCE</p>
+
+                    <h2>
+                        Find me on
+                        <span>GitHub.</span>
+                    </h2>
+
+                    <p class="section-subtitle">
+                        Explore my projects, experiments and development journey.
+                    </p>
+
+                </div>
+
+
+                <div class="github-card reveal">
+
+                    <div class="github-profile">
+
+                        <div class="github-avatar">
+                            <i class="fa-brands fa-github"></i>
+                        </div>
+
+                        <div>
+                            <h3>Apurboraj</h3>
+                            <p>AI/ML · Software Development · Data Science</p>
+                        </div>
+
+                    </div>
+
+                    <div class="github-stats">
+
+                        <div>
+                            <strong>AI/ML</strong>
+                            <span>Projects</span>
+                        </div>
+
+                        <div>
+                            <strong>Software</strong>
+                            <span>Development</span>
+                        </div>
+
+                        <div>
+                            <strong>Research</strong>
+                            <span>Interests</span>
+                        </div>
+
+                    </div>
+
+                    <a
+                        href="https://github.com/Apurboraj"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="btn btn-primary"
+                    >
+                        <i class="fa-brands fa-github"></i>
+                        Visit GitHub
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             CONTACT
+        ========================== -->
+
+        <section class="section contact-section" id="contact">
+
+            <div class="container">
+
+                <div class="contact-grid">
+
+                    <div class="contact-info reveal">
+
+                        <p class="eyebrow">GET IN TOUCH</p>
+
+                        <h2>
+                            Let's build something
+                            <span>meaningful.</span>
+                        </h2>
+
+                        <p>
+                            Whether you want to discuss an AI project,
+                            software development, research collaboration,
+                            internship or Master's opportunity, feel free
+                            to reach out.
+                        </p>
+
+                        <div class="contact-details">
+
+                            <a href="mailto:apucse1296@gmail.com">
+                                <i class="fa-solid fa-envelope"></i>
+                                <div>
+                                    <span>Email</span>
+                                    <strong>apucse1296@gmail.com</strong>
+                                </div>
+                            </a>
+
+                            <a
+                                href="https://www.linkedin.com/in/apurborajbongshi-57253933b/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <i class="fa-brands fa-linkedin"></i>
+                                <div>
+                                    <span>LinkedIn</span>
+                                    <strong>Apurbo Rajbongshi</strong>
+                                </div>
+                            </a>
+
+                            <a
+                                href="https://github.com/Apurboraj"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <i class="fa-brands fa-github"></i>
+                                <div>
+                                    <span>GitHub</span>
+                                    <strong>@Apurboraj</strong>
+                                </div>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="contact-form-wrapper reveal">
+
+                        <form
+                            class="contact-form"
+                            id="contact-form"
+                        >
+
+                            <div class="form-row">
+
+                                <div class="form-group">
+                                    <label for="name">Name</label>
+                                    <input
+                                        type="text"
+                                        id="name"
+                                        name="name"
+                                        placeholder="Your name"
+                                        required
+                                    >
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="email">Email</label>
+                                    <input
+                                        type="email"
+                                        id="email"
+                                        name="email"
+                                        placeholder="your@email.com"
+                                        required
+                                    >
+                                </div>
+
+                            </div>
+
+                            <div class="form-group">
+
+                                <label for="subject">Subject</label>
+
+                                <input
+                                    type="text"
+                                    id="subject"
+                                    name="subject"
+                                    placeholder="What would you like to discuss?"
+                                    required
+                                >
+
+                            </div>
+
+                            <div class="form-group">
+
+                                <label for="message">Message</label>
+
+                                <textarea
+                                    id="message"
+                                    name="message"
+                                    rows="6"
+                                    placeholder="Write your message..."
+                                    required
+                                ></textarea>
+
+                            </div>
+
+                            <button
+                                type="submit"
+                                class="btn btn-primary form-submit"
+                            >
+                                <i class="fa-solid fa-paper-plane"></i>
+                                Send Message
+                            </button>
+
+                            <p class="form-note">
+                                This form opens your email client with the message prepared.
+                            </p>
+
+                        </form>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer class="footer">
+
+        <div class="container footer-content">
+
+            <div>
+
+                <a href="#home" class="footer-logo">
+                    <span>&lt;</span>AR<span>/&gt;</span>
+                </a>
+
+                <p>
+                    AI/ML Engineer · Software Developer · Data Science Enthusiast
+                </p>
+
+            </div>
+
+
+            <div class="footer-socials">
+
+                <a
+                    href="https://github.com/Apurboraj"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="GitHub"
+                >
+                    <i class="fa-brands fa-github"></i>
+                </a>
+
+                <a
+                    href="https://www.linkedin.com/in/apurborajbongshi-57253933b/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="LinkedIn"
+                >
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+
+                <a
+                    href="mailto:apucse1296@gmail.com"
+                    aria-label="Email"
+                >
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom container">
+
+            <p>
+                © <span id="year"></span> Apurbo Rajbongshi. All rights reserved.
+            </p>
+
+            <a href="#home">
+                Back to top
+                <i class="fa-solid fa-arrow-up"></i>
+            </a>
+
+        </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
 
 </body>
 </html>
+```
